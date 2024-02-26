@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 10% 25%;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.filter {
+    margin-bottom: 15px;
+    display: flex;
+    height: 50px;
+    border: 2px solid rgb(80, 38, 101);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#input {
+    width: 70%;
+    border: none;
+    padding: 0 15px;
+    font-size: 18px;
+    outline: none;
+}
+
+#searchButton {
+    width: 30%;
+    background-color: rgb(80, 38, 101);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input {
+    font-size: 18px;
+    padding: 10px;
+}
+
+#searchButton:hover {
+    background-color: rgb(60, 18, 81);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 2px solid rgb(80, 38, 101);
+    text-align: left;
+}
+
+.table th {
+    background-color: rgb(80, 38, 101);
+    color: white;
+}
+
+.highlight {
+    background-color: rgb(221, 185, 239);
+    color: white;
+}
